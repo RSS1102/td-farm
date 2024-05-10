@@ -4,8 +4,8 @@
       <a href="https://tdesign.tencent.com/vue/overview" target="_blank">
         <img src="../public/tdesign-logo.svg" class="logo tdesign" alt="TDesign" />
       </a>
-      <a href="https://vitejs.dev/" target="_blank">
-        <img src="./assets/svg/farm-logo.png" class="logo vite" alt="Vite" />
+      <a href="https://www.farmfe.org/" target="_blank">
+        <img src="./assets/svg/farm-logo.png" class="logo farm" alt="Farm" />
       </a>
     </t-space>
     <h2> Welcome to use
@@ -14,9 +14,9 @@
         TDesign-vue
       </t-link>
       +
-      <t-link size="large" theme="primary" href="https://vitejs.dev/" target="_blank">
+      <t-link size="large" theme="primary" href="https://www.farmfe.org/" target="_blank">
         <jump-icon slot="suffixIcon" />
-        Vite
+        Farm
       </t-link>
       ！
     </h2>
@@ -82,7 +82,7 @@ export default Vue.extend({
   filter: drop-shadow(0 0 2em #194de9);
 }
 
-.logo.vite:hover {
+.logo.farm:hover {
   filter: drop-shadow(0 0 2em #bd34fe);
 }
 </style>

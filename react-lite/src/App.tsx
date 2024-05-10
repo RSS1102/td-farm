@@ -2,7 +2,7 @@ import * as React from "react"
 import { Button, ConfigProvider, Link, Space } from 'tdesign-react';
 import { AddIcon, CloudUploadIcon, DiscountIcon, CloudDownloadIcon, JumpIcon } from 'tdesign-icons-react';
 import TDesignLogo from '../public/tdesign-logo.svg';
-import ViteLogo from './assets/svg/farm-logo.png';
+import FarmLogo from './assets/svg/farm-logo.png';
 import './App.css';
 
 const App: React.FC = () => {
@@ -13,8 +13,8 @@ const App: React.FC = () => {
           <a href="https://tdesign.tencent.com/react/overview" target="_blank">
             <img src={TDesignLogo} className="logo tdesign" alt="TDesign" />
           </a>
-          <a href="https://vitejs.dev/" target="_blank">
-            <img src={ViteLogo} className="logo vite" alt="Vite" />
+          <a href="https://www.farmfe.org/" target="_blank">
+            <img src={FarmLogo} className="logo farm" alt="Farm" />
           </a>
         </Space>
         <h2> Welcome to use
@@ -22,8 +22,8 @@ const App: React.FC = () => {
             TDesign-react
           </Link>
           +
-          <Link size="large" theme="primary" href="https://vitejs.dev/" suffixIcon={<JumpIcon />} target="_blank">
-            Vite
+          <Link size="large" theme="primary" href="https://www.farmfe.org/" suffixIcon={<JumpIcon />} target="_blank">
+            Farm
           </Link>
           !
         </h2>

@@ -5,8 +5,8 @@
         <a href="https://tdesign.tencent.com/vue-next/overview" target="_blank">
           <img :src="TDesignLogo" class="logo tdesign" alt="TDesign" />
         </a>
-        <a href="https://vitejs.dev/" target="_blank">
-          <img :src="ViteLogo" class="logo vite" alt="Vite" />
+        <a href="https://www.farmfe.org/" target="_blank">
+          <img :src="FarmLogo" class="logo farm" alt="Farm" />
         </a>
       </t-space>
       <h2> Welcome to use
@@ -17,11 +17,11 @@
           TDesign-vue-next
         </t-link>
         +
-        <t-link size="large" theme="primary" href="https://vitejs.dev/" target="_blank">
+        <t-link size="large" theme="primary" href="https://www.farmfe.org/" target="_blank">
           <template #suffix-icon>
             <JumpIcon />
           </template>
-          Vite
+          Farm
         </t-link>
         !
       </h2>
@@ -67,7 +67,7 @@ import {
   JumpIcon
 } from "tdesign-icons-vue-next";
 import TDesignLogo from '../public/tdesign-logo.svg';
-import ViteLogo from './assets/svg/farm-logo.png';
+import FarmLogo from './assets/svg/farm-logo.png';
 
 </script>
 
@@ -83,7 +83,7 @@ import ViteLogo from './assets/svg/farm-logo.png';
   filter: drop-shadow(0 0 2em #194de9);
 }
 
-.logo.vite:hover {
+.logo.farm:hover {
   filter: drop-shadow(0 0 2em #bd34fe);
 }
 </style>
